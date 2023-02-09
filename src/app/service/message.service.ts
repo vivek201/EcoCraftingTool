@@ -73,6 +73,15 @@ const messages: Message[] =
       ]
     },
     {
+      'id': 'navTitleVisualizer',
+      'localizedMessages': [
+        {
+          'text': 'Recipe Visualizer',
+          'lang': 'en'
+        }
+      ]
+    },
+    {
       'id': 'resourceCostMultiplier',
       'localizedMessages': [
         {

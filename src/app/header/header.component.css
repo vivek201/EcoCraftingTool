@@ -39,3 +39,18 @@
 .dropdown-divider {
   border-top: 2px solid #505050;
 }
+
+.nav-item {
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.nav-item:not(.nav-active):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-active {
+  font-weight: normal;
+  font-size: 1.25rem;
+}

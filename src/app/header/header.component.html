@@ -2,7 +2,10 @@
   <div class="navbar-brand dropdown">
     <img alt="Eco" class="d-inline-block align-top logo-margin" height="30"
          [src]="imageBaseUrl + 'eco-logo-new.png'">
-    {{message('navTitle')}}
+      <span routerLink="/" class="nav-item" routerLinkActive="nav-active" [routerLinkActiveOptions]="{ exact: true }">{{message('navTitle')}}</span>
+      |
+      <span routerLink="/recipes" class="nav-item" routerLinkActive="nav-active">{{message('navTitleVisualizer')}}</span>
+
     <app-release-notes></app-release-notes>
   </div>
   <div class="collapse navbar-collapse" id="navbarLinks">
